@@ -5,6 +5,10 @@ class ContentBody extends Component {
         return (
             <div>
                 <div id="about"></div>
+                <div id="skills"></div>
+                <div id="experience"></div>
+                <div id="projects"></div>
+                <div id="contact"></div>
             </div>
         )
     }

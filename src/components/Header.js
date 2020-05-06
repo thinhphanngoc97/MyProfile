@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import '../assets/css/Header.css';
+import { NavHashLink as NavLink  } from 'react-router-hash-link';
 
 class Header extends Component {
     render() {
         return (
-            <div className="header">
+            <div className="header" id="home">
                 <div className="container"> 
                     <nav className="navbar navbar-expand-sm navbar-dark">
                         <button 
@@ -20,23 +21,67 @@ class Header extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="collapsibleNavId">
                             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                                <li className="nav-item active">
-                                    <a className="nav-link" href="/">Home</a>
+                                <li className="nav-item">
+                                    <NavLink 
+                                        className="nav-link" 
+                                        activeClassName="activated" 
+                                        smooth 
+                                        to="/#home"
+                                        location={{pathname: document.location.pathname + document.location.hash}}
+                                    >
+                                        Home
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/#about">About</a>
+                                    <NavLink 
+                                        className="nav-link" 
+                                        activeClassName="activated" 
+                                        smooth 
+                                        to="/#about"
+                                        location={{pathname: document.location.pathname + document.location.hash}}
+                                    >
+                                        About
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Skills</a>
+                                    <NavLink 
+                                        className="nav-link" 
+                                        activeClassName="activated" 
+                                        smooth 
+                                        to="/#skills"
+                                    >
+                                        Skills
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Experience</a>
+                                    <NavLink 
+                                        className="nav-link" 
+                                        activeClassName="activated" 
+                                        smooth 
+                                        to="/#experience"
+                                    >
+                                        Experience
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Projects</a>
+                                    <NavLink 
+                                        className="nav-link" 
+                                        activeClassName="activated" 
+                                        smooth 
+                                        to="/#projects"
+                                    >
+                                        Projects
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Contact</a>
+                                    <NavLink 
+                                        className="nav-link" 
+                                        activeClassName="activated" 
+                                        smooth 
+                                        to="/#contact"
+                                    >
+                                        Contact
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>

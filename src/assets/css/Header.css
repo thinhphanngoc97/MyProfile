@@ -9,26 +9,26 @@
 }
 
 @media (min-width: 992px) {
-    .header .container .navbar {
+    .navbar {
         float: right;
     }
 }
 
-.header .container .navbar ul li a {
+.navbar-collapse .navbar-nav .nav-link {
     color: white;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 20px !important;
     font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 575px) {
-    .header .container .navbar .navbar-collapse {
+    .navbar-collapse {
         text-align: center;
         background-color: rgba(0, 0, 0, 0.6);
         margin-top: 5px;
     }
 }
 
-.header .container .navbar .active .nav-link{
+/* .navbar-collapse .navbar-nav .activated {
     color: #00B0DC;
-}
+} */
