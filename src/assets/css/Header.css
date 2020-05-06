@@ -1,0 +1,34 @@
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/hill.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+@media (min-width: 992px) {
+    .header .container .navbar {
+        float: right;
+    }
+}
+
+.header .container .navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 575px) {
+    .header .container .navbar .navbar-collapse {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: 5px;
+    }
+}
+
+.header .container .navbar .active .nav-link{
+    color: #00B0DC;
+}
