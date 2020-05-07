@@ -1,0 +1,46 @@
+#about {
+    margin-top: 50px;
+}
+
+#about .about-image {
+    padding: 5px;
+
+    background-color: white;
+
+    width: 100%;
+    height: auto;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(65, 29, 29, 0.3);
+}
+
+#about .stack-about-image {
+    position: absolute;
+    left: 15px;
+    top: 3px;
+
+    width: 90%;
+    height: auto;
+
+    z-index: -10;
+
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+#about .about-content {
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+#about .row h2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+
+    padding-bottom: 20px;
+}

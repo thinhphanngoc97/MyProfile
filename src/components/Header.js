@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import '../assets/css/Header.css';
 import { NavHashLink as NavLink  } from 'react-router-hash-link';
 import img from '../assets/images/1.png';
+import ReactTypingEffect from 'react-typing-effect';
 
 class Header extends Component {
     render() {
@@ -96,6 +97,42 @@ class Header extends Component {
                             <img className="image" src={img} alt="It's me"/>
                         </div>
                         <h3>Hi. I'm Thinh</h3>
+                        <ReactTypingEffect 
+                            className="position" 
+                            text="Front-end Developer" 
+                            speed="100"
+                            typingDelay="1000"
+                            eraseDelay="2000"
+                        />
+                        <div className="social">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/thinhphanngoc97" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/thinh-phan-ngoc-013179194" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/thinhphanngoc97" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-github"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="move-down-button">
+                            <NavLink 
+                                className="nav-link" 
+                                activeClassName="" 
+                                smooth 
+                                to="/#about"
+                            >
+                                <span className="move-down-point"></span>
+                            </NavLink>
+                        </div>
                     </div>
                 </div>
             </div>
