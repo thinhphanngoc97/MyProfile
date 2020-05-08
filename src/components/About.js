@@ -14,8 +14,8 @@ class About extends Component {
                         </div>
                         <div className="about-content col-lg-8 col-md-12 col-sm-12">
                             <h2>Front-end Developer</h2>
-                            <p>I am <b>Thinh Phan Ngoc</b>. I am a simple, creative, enthusiastic and fun-loving person.</p>
-                            <p>My objective is always constantly improving programming skills and understanding of technologies to become a professional front-end developer.</p>
+                            <p>I am <b>Thinh Phan Ngoc</b>. I am a simple, creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
+                            <p>My objective is constantly improving programming skills and understanding of technologies to become a professional front-end developer. Hence I am always looking for opportunities to work in a challenging work environment where I can utilize my expertise, towards the development and implementation of the new ideas.</p>
                             <div className="row personal-info">
                                 <div className="col-md-6 col-sm-12">
                                     <ul>
@@ -28,8 +28,8 @@ class About extends Component {
                                             <span className="value">24 Years</span>
                                         </li>
                                         <li>
-                                            <span className="title">Address : </span>
-                                            <span className="value">Go Vap District, Ho Chi Minh City</span>
+                                            <span className="title">Hobby : </span>
+                                            <span  className="value">Movie, Music, Travel</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -41,23 +41,23 @@ class About extends Component {
                                         </li>
                                         <li>
                                             <span className="title">Email : </span>
-                                            <span className="value">thinhphanngoc97@gmail.com</span>
+                                            <span className="value">pnthinh97@gmail.com</span>
                                         </li>
                                         <li>
-                                            <span className="title">Hobby : </span>
-                                            <span  className="value">Movie, Music, Travel</span>
+                                            <span className="title">Address : </span>
+                                            <span className="value">Go Vap, Ho Chi Minh</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <a 
+                            {/* <a 
                                 className="btn btn-download-cv" 
                                 href="https://www.topcv.vn/xem-cv/0ff40b88b7c1a22667ffa3dcbf60942d" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
                                 Download CV
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ import postgreImg from '../assets/images/postgresql.svg';
 import mysqlImg from '../assets/images/mysql.svg';
 import gitlabImg from '../assets/images/gitlab.svg';
 import githubImg from '../assets/images/github.svg';
-import sourcetreeImg from '../assets/images/sourcetree.svg';
+// import sourcetreeImg from '../assets/images/sourcetree.svg';
 
 class Skills extends Component {
     render() {
@@ -26,7 +26,7 @@ class Skills extends Component {
                         <div className="tech-list">
                             <img className="tech-icon" src={html5Img} alt="HTML5"/>
                             <img className="tech-icon" src={css3Img} alt="CSS3"/>
-                            <img className="tech-icon" src={bootstrapImg} alt="Bootstrap 4"/>
+                            <img className="tech-icon bootstrap-icon" src={bootstrapImg} alt="Bootstrap 4"/>
                             <img className="tech-icon" src={reactImg} alt="React"/>
                             <img className="tech-icon" src={nextjsImg} alt="Next.js"/>
                             <img className="tech-icon" src={nodejsImg} alt="Node.js"/>
@@ -35,7 +35,7 @@ class Skills extends Component {
                             <img className="tech-icon" src={mysqlImg} alt="My SQL"/>
                             <img className="tech-icon" src={gitlabImg} alt="Gitlab"/>
                             <img className="tech-icon" src={githubImg} alt="Github"/>
-                            <img className="tech-icon" src={sourcetreeImg} alt="Sourcetree"/>
+                            {/* <img className="tech-icon" src={sourcetreeImg} alt="Sourcetree"/> */}
                         </div>
                     </div>
                 </div>

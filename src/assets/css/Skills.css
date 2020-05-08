@@ -30,10 +30,15 @@
 }
 
 #skills .programming-skills .tech-list .tech-icon {
-    width: 150px;
-    height: 150px;
+    width: 165px;
+    height: 165px;
 
     padding: 30px;
+}
+
+#skills .programming-skills .tech-list .bootstrap-icon {
+    width: 150px;
+    height: 150px;
 }
 
 #skills .soft-skills {
