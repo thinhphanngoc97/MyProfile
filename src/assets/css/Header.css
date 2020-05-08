@@ -46,11 +46,14 @@
     position: relative;
     top: 0;
     left: 0;
+
+    display: table;
 }
 
 
 .banner .banner-content {
-    padding-top: 150px;
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
 }
 
@@ -140,12 +143,13 @@
     margin: -8px 0 0 -4px;
     background: #ffffff;
     border-radius: 50%;
-    animation: move 2s infinite;
+    animation: move 3s infinite;
 }
 
 @keyframes move
 {
   0%   {transform: translateY(0px); opacity: 1;}
-  90%  {transform: translateY(30px); opacity: 1;}
+  15%  {transform: translateY(30px); opacity: 0.65;}
+  25%  {transform: translateY(30px); opacity: 0;}
   100% {transform: translateY(30px); opacity: 0;}
 }

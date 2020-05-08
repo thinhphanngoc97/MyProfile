@@ -32,15 +32,47 @@
     transform: rotate(-5deg);
 }
 #about .about-content {
-    padding-left: 80px;
-    padding-top: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#about .row h2 {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@media (max-width: 991px) {
+    #about .about-content {
+        padding-left: 20px;
+    }
+}
+
+#about .about-content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 30px;
 
     padding-bottom: 20px;
+}
+
+.about-content .personal-info ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.about-content .personal-info ul li {
+    padding-bottom: 15px;
+}
+
+.about-content .personal-info .title {
+    color: #a1a1a1;
+
+    font-weight: 900;
+    text-decoration: solid;
+}
+
+.about-content .btn-download-cv {
+    color: #2B2F37;
+    text-transform: uppercase;
+
+    padding: 15px 20px;
+    
+    border-color: rosybrown;
 }
