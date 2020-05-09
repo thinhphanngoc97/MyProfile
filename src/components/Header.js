@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import '../assets/css/Header.css';
 import { NavHashLink as NavLink  } from 'react-router-hash-link';
-import img from '../assets/images/1.png';
+import img from '../assets/images/3.jpg';
 import ReactTypingEffect from 'react-typing-effect';
 
 class Header extends Component {
@@ -61,9 +61,9 @@ class Header extends Component {
                                             className="nav-link" 
                                             activeClassName="" 
                                             smooth 
-                                            to="/#experience"
+                                            to="/#projects"
                                         >
-                                            Experience
+                                            Projects
                                         </NavLink>
                                     </li>
                                     <li className="nav-item">
@@ -71,9 +71,9 @@ class Header extends Component {
                                             className="nav-link" 
                                             activeClassName="" 
                                             smooth 
-                                            to="/#projects"
+                                            to="/#experience"
                                         >
-                                            Projects
+                                            Experience
                                         </NavLink>
                                     </li>
                                     <li className="nav-item">

@@ -39,14 +39,6 @@ class Skills extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="soft-skills">
-                    <div className="container">
-                        <h2 className="title">
-                            My
-                            <span> Soft Skills</span>    
-                        </h2>
-                    </div>
-                </div>
             </div>
         )
     }

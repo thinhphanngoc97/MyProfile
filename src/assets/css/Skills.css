@@ -7,7 +7,7 @@
 } 
 
 #skills .programming-skills .title {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 50px;
     
     color: #262626;
@@ -23,48 +23,23 @@
     padding-bottom: 50px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     #skills .programming-skills .tech-list {
         text-align: center;
     }
 }
 
 #skills .programming-skills .tech-list .tech-icon {
-    width: 165px;
-    height: 165px;
+    width: 155px;
+    height: 155px;
 
     padding: 30px;
 }
 
 #skills .programming-skills .tech-list .bootstrap-icon {
-    width: 150px;
-    height: 150px;
-}
-
-#skills .soft-skills {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../images/bridge.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    width: 100%;
-
-    height: 500px;
-} 
-
-#skills .soft-skills .title {
-    padding-top: 40px;
-    
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 700;
-
-    text-align: center;
+    padding: 40px;
 }
 
 #skills .title span {
-    color: rosybrown;
+    color: #00B0DC;
 }
