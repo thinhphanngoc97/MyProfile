@@ -18,6 +18,8 @@
     letter-spacing: 1px;
     font-weight: 700;
 
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+
     text-align: center;
 }
 
@@ -25,11 +27,11 @@
     padding-bottom: 80px;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     #projects .project-list {
         justify-content: center;
     }
-}
+} */
 
 #projects .title span {
     color: #00B0DC;
@@ -37,8 +39,7 @@
 
 #projects .project-item {
     box-shadow: 5px 10px 10px #000000;
-
-    padding: 0px;
+    position: relative;
 }
 
 #projects .project-item a {
@@ -55,18 +56,25 @@
 
 #projects .project-item a h4 {
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
     font-weight: 900;
     font-size: 18px;
+}
+
+#projects .project-item a p {
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
 }
 
 #projects .project-item .overlay {
     position: absolute;
-    top: 0px;
-
-    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 100%;
+    width: 100%;
 
     opacity: 0;
     transition: 1s ease;

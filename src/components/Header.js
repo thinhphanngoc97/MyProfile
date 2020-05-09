@@ -131,16 +131,16 @@ class Header extends Component {
                                 </li>
                             </ul>
                         </div>
-                        <div className="move-down-button">
-                            <NavLink 
-                                className="nav-link" 
-                                activeClassName="" 
-                                smooth 
-                                to="/#about"
-                            >
-                                <span className="move-down-point"></span>
-                            </NavLink>
-                        </div>
+                    </div>
+                    <div className="move-down-button">
+                        <NavLink 
+                            className="nav-link" 
+                            activeClassName="" 
+                            smooth 
+                            to="/#about"
+                        >
+                            <span className="move-down-point"></span>
+                        </NavLink>
                     </div>
                 </div>
             </div>

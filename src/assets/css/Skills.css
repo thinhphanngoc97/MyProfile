@@ -16,6 +16,8 @@
     letter-spacing: 1px;
     font-weight: 700;
 
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+
     text-align: center;
 }
 
@@ -23,11 +25,11 @@
     padding-bottom: 50px;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     #skills .programming-skills .tech-list {
         text-align: center;
     }
-}
+} */
 
 #skills .programming-skills .tech-list .tech-icon {
     width: 155px;
