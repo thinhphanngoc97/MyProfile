@@ -3,6 +3,7 @@ import About from "./About";
 import '../assets/css/About.css'
 import Skills from "./Skills";
 import Project from "./Project";
+import Experience from "./Experience";
 
 class ContentBody extends Component {
     render() {
@@ -11,7 +12,7 @@ class ContentBody extends Component {
                 <About/>
                 <Skills/>
                 <Project/>
-                <div id="experience"></div>
+                <Experience/>
                 <div id="contact"></div>
             </div>
         )

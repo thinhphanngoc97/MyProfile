@@ -8,9 +8,11 @@ class About extends Component {
             <div className="container">
                 <div id="about">
                     <div className="row">
-                        <div className="col-lg-4 col-md-12 col-sm-12">
-                            <img className="about-image" src={aboutImg} alt="Still me"/>
-                            <img className="stack-about-image about-image" src={aboutImg} alt=""/>
+                        <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="centered-img">
+                                <img className="about-image" src={aboutImg} alt="Still me"/>
+                                <img className="stack-about-image about-image" src={aboutImg} alt=""/>
+                            </div>
                         </div>
                         <div className="about-content col-lg-8 col-md-12 col-sm-12">
                             <h2>Front-end Developer</h2>

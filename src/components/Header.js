@@ -5,12 +5,20 @@ import img from '../assets/images/3.jpg';
 import ReactTypingEffect from 'react-typing-effect';
 
 class Header extends Component {
+    componentDidMount() {
+        window.onscroll = () => {
+            const nav = document.querySelector('#navbar');
+            if(window.pageYOffset > 0) nav.className = 'navbar navbar-expand-sm navbar-dark navbar-scrolling'; 
+            else nav.className = 'navbar navbar-expand-sm navbar-dark';
+        };
+    }
+
     render() {
         return (
             <div className="header-banner">
                 <div className="header">
-                    <div className="container"> 
-                        <nav className="navbar navbar-expand-sm navbar-dark">
+                    <nav id="navbar" className="navbar navbar-expand-sm navbar-dark">
+                        <div className="container"> 
                             <button 
                                 className="navbar-toggler d-lg-none" 
                                 type="button" 
@@ -88,8 +96,8 @@ class Header extends Component {
                                     </li>
                                 </ul>
                             </div>
-                        </nav>
-                    </div>
+                        </div>
+                    </nav>
                 </div>
                 <div className="banner" id="home">
                     <div className="banner-content">

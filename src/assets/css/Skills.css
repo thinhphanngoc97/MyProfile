@@ -34,7 +34,14 @@
     height: 155px;
 
     padding: 30px;
+    transition: transform .2s;
 }
+
+.tech-icon:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+  }
 
 #skills .programming-skills .tech-list .bootstrap-icon {
     padding: 40px;
