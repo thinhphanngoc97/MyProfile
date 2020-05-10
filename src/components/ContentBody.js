@@ -4,6 +4,7 @@ import '../assets/css/About.css'
 import Skills from "./Skills";
 import Project from "./Project";
 import Experience from "./Experience";
+import Contact from "./Contact";
 
 class ContentBody extends Component {
     render() {
@@ -13,7 +14,7 @@ class ContentBody extends Component {
                 <Skills/>
                 <Project/>
                 <Experience/>
-                <div id="contact"></div>
+                <Contact/>
             </div>
         )
     }

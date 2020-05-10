@@ -8,7 +8,7 @@ class About extends Component {
             <div className="container">
                 <div id="about">
                     <div className="row">
-                        <div className="col-lg-4 col-md-10 col-sm-12">
+                        <div className="col-xl-3 col-lg-4 col-md-9 col-sm-12">
                             <div className="centered-img">
                                 <img className="about-image" src={aboutImg} alt="Still me"/>
                                 {/* <img className="stack-about-image about-image" src={aboutImg} alt=""/> */}

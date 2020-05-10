@@ -1,0 +1,89 @@
+#contact {
+    background-color: white;
+
+    padding-bottom: 80px;
+}
+
+#contact .title {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+    color: #262626;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+    text-shadow: 3px 1px 3px rgba(45, 45, 45, 0.14);
+
+    text-align: center;
+}
+
+#contact .title span {
+    color: #00B0DC;
+}
+
+.form-group label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.form-group input {
+    border-radius: 0px;
+}
+
+.form-group .message-input {
+    height: 250px;
+
+    border-radius: 0px;
+}
+
+.form-group .send-btn {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: #00B0DC;
+    padding: 15px 20px;
+
+    cursor: pointer;
+
+    border: none;
+}
+
+#contact .contact-info {
+    margin-left: 50px;
+}
+
+@media (max-width: 991px) {
+    #contact .contact-info {
+        margin-left: 0px;
+    }
+}
+
+.contact-item i {
+    color: #00B0DC;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.contact-item h5 {
+    padding-top: 2px;
+    padding-bottom: 5px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-item p {
+    line-height: 21px;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+}
