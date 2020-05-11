@@ -38,6 +38,15 @@
         color: white;
     }
 
+    .navbar-scrolling .navbar-collapse .navbar-nav .nav-item a:focus {
+        color: white;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item {
+        width: 50%;
+        margin: 5px auto;
+    }
+
     .navbar-toggler {
         border: none;
     }
@@ -68,7 +77,18 @@
 }
 
 .navbar-collapse .navbar-nav .nav-item a:focus {
-    color: #00B0DC;
+    color: white;
+}
+
+.navbar-scrolling .navbar-collapse .nav-item a:focus {
+    color: #262626;
+}
+
+.navbar-collapse .navbar-nav .nav-item .activated {
+    color: #00B0DC !important;
+
+    border-bottom: solid;
+    border-bottom-width: thin;
 }
 
 .banner {

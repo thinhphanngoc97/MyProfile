@@ -7,7 +7,7 @@ class About extends Component {
         return (
             <div className="container">
                 <div id="about">
-                    <div className="row">
+                    <div className="row about-section">
                         <div className="col-xl-3 col-lg-4 col-md-9 col-sm-12">
                             <div className="centered-img">
                                 <img className="about-image" src={aboutImg} alt="Still me"/>
