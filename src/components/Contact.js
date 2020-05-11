@@ -72,15 +72,31 @@ class Contact extends Component {
                             <form name="contact-form" className="row form-group" onSubmit={this.sendEmail}>
                                 <div className="my-2 col-md-6 col-sm-12">
                                     <label>Full Name</label>
-                                    <input required className="form-control" type="text" onChange={this.handleChangeName}/>
+                                    <input 
+                                        required 
+                                        className="form-control" 
+                                        type="text" 
+                                        name="name"
+                                        onChange={this.handleChangeName}
+                                    />
                                 </div>
                                 <div className="my-2 col-md-6 col-sm-12">
                                     <label>Email</label>
-                                    <input required className="form-control" type="email" onChange={this.handleChangeEmail}/>
+                                    <input 
+                                        required 
+                                        className="form-control" 
+                                        type="email" 
+                                        name="email"
+                                        onChange={this.handleChangeEmail}
+                                    />
                                 </div>
                                 <div className="my-2 col-12">
                                     <label>Message</label>
-                                    <textarea required className="form-control message-input" onChange={this.handleChangeMessage}/>
+                                    <textarea 
+                                        required 
+                                        className="form-control message-input" 
+                                        onChange={this.handleChangeMessage}
+                                    />
                                 </div>
                                 <div className="my-2 col-12">
                                     <input className="send-btn" type="submit" value="SEND MESSAGE" />

@@ -27,7 +27,7 @@ class About extends Component {
                                         </li>
                                         <li>
                                             <span className="title">Age : </span>
-                                            <span className="value">24 Years</span>
+                                            <span className="value">23 Years</span>
                                         </li>
                                         <li>
                                             <span className="title">Hobby : </span>
