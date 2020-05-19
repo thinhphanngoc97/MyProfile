@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Project from "./Project";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import Interests from "./Interests";
 
 class ContentBody extends Component {
     render() {
@@ -14,6 +15,7 @@ class ContentBody extends Component {
                 <Skills/>
                 <Project/>
                 <Experience/>
+                <Interests/>
                 <Contact/>
             </div>
         )

@@ -1,5 +1,5 @@
 #projects {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../images/bridge2.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('../images/desk.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 
 #projects .project-item {
-    box-shadow: 5px 10px 10px #000000;
+    box-shadow: 5px 10px 20px #000000;
     position: relative;
 }
 

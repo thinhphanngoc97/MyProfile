@@ -17,7 +17,7 @@ class Experience extends Component {
                                     <h4>Full-Stack Developer</h4>
                                     <h3>Nichietsu System Development</h3>
                                     <h5>Mar 2019 - May 2019</h5>
-                                    <p>This is the company that I chose to complete my internship. Here I have been researching and learning new technologies such as Next.js, Express.js. Besides, I also directly participated in developing an insurance website.</p>
+                                    <p>This is the company that I chose to complete my internship. Here I have been researching and learning new technologies such as Next.js and Express.js. Besides, I also directly joined in developing an insurance website.</p>
                                 </div>
                             </div>
                         </div>

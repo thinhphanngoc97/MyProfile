@@ -49,6 +49,13 @@ class Header extends Component {
             else 
                 experienceMenuItem.className = "nav-link";
 
+            const hobbySection = document.querySelector('#hobby').getBoundingClientRect();
+            const hobbyMenuItem = document.querySelector('#hobby-menu-item');
+            if(hobbySection.y <= 200 && hobbySection.y > -hobbySection.height + 200) 
+                hobbyMenuItem.className ="nav-link activated";
+            else 
+                hobbyMenuItem.className = "nav-link";    
+
             const contactSection = document.querySelector('#contact').getBoundingClientRect();
             const contactMenuItem = document.querySelector('#contact-menu-item');
             if(contactSection.y <= 200) 
@@ -125,6 +132,16 @@ class Header extends Component {
                                             to="/#experience"
                                         >
                                             Experience
+                                        </NavLink>
+                                    </li>
+                                    <li className="nav-item">
+                                        <NavLink 
+                                            id="hobby-menu-item"
+                                            className="nav-link" 
+                                            smooth 
+                                            to="/#hobby"
+                                        >
+                                            Hobby
                                         </NavLink>
                                     </li>
                                     <li className="nav-item">

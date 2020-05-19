@@ -179,6 +179,10 @@
     color: white;
 }
 
+.banner-content .social ul li a:hover {
+    color: #00B0DC;
+}
+
 .banner .move-down-button {
     position: absolute;
     bottom: 10px;
