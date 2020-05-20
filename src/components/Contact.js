@@ -118,7 +118,7 @@ class Contact extends Component {
                                 <div className="contact-item">
                                     <i className="fa fa-globe"></i>
                                     <h5>Website Address</h5>
-                                    <p>thinhphan-profile.web.app</p>
+                                    <p>thinhphanngoc97.github.io/profile</p>
                                 </div>
                             </div>
                         </div>
