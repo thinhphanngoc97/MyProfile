@@ -27,12 +27,6 @@
     padding-bottom: 80px;
 }
 
-/* @media (max-width: 767px) {
-    #projects .project-list {
-        justify-content: center;
-    }
-} */
-
 #projects .title span {
     color: #00B0DC;
 }

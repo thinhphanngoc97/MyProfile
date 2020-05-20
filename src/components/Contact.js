@@ -43,8 +43,6 @@ class Contact extends Component {
             message: this.state.message
         }
 
-        // console.log(template_params);
-
         emailjs.send('gmail','contact_email_template', template_params, 'user_izwB33Ch5oATj5ge3pIJh')
         .then((response) => {
             // console.log('SUCCESS!', response.status, response.text);

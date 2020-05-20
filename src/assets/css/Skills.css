@@ -19,13 +19,8 @@
 
 #skills .programming-skills .tech-list {
     padding-bottom: 50px;
+    text-align: center;
 }
-
-/* @media (max-width: 767px) {
-    #skills .programming-skills .tech-list {
-        text-align: center;
-    }
-} */
 
 #skills .programming-skills .tech-list .tech-icon {
     width: 155px;
