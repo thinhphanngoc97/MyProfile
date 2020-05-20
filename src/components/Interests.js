@@ -25,6 +25,7 @@ class Interests extends Component {
                                         <h4>Movie</h4>
                                     </div>
                                 </div>
+                                <div className="overlay-upper"></div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
@@ -35,6 +36,7 @@ class Interests extends Component {
                                         <h4>Music</h4>
                                     </div>
                                 </div>
+                                <div className="overlay-upper"></div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
@@ -45,6 +47,7 @@ class Interests extends Component {
                                         <h4>Travel</h4>
                                     </div>
                                 </div>
+                                <div className="overlay-upper"></div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
@@ -55,6 +58,7 @@ class Interests extends Component {
                                         <h4>Swimming</h4>
                                     </div>
                                 </div>
+                                <div className="overlay-upper"></div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
@@ -65,6 +69,7 @@ class Interests extends Component {
                                         <h4>Cooking</h4>
                                     </div>
                                 </div>
+                                <div className="overlay-upper"></div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
@@ -75,6 +80,7 @@ class Interests extends Component {
                                         <h4>Go Fishing</h4>
                                     </div>
                                 </div>
+                                <div className="overlay-upper"></div>
                             </div>
                         </div>
                     </div>

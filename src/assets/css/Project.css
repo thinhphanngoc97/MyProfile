@@ -72,7 +72,9 @@
 
     opacity: 0;
     transition: 1s ease;
-    background-color: #00B0DC;
+    
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
 }
 
 #projects .project-item .overlay .overlay-inner{
