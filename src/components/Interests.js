@@ -17,7 +17,7 @@ class Interests extends Component {
                         <span> Hobby?</span>    
                     </h2>
                     <div className="row hobby-list">
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                             <div className="hobby-item">
                                 <img src={movieImg} alt="Movie"/>
                                 <div className="overlay">
@@ -28,7 +28,7 @@ class Interests extends Component {
                                 <div className="overlay-upper"></div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                             <div className="hobby-item">
                                 <img src={musicImg} alt="Music"/>
                                 <div className="overlay">
@@ -39,7 +39,7 @@ class Interests extends Component {
                                 <div className="overlay-upper"></div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                             <div className="hobby-item">
                                 <img src={travelImg} alt="Travel"/>
                                 <div className="overlay">
@@ -50,7 +50,7 @@ class Interests extends Component {
                                 <div className="overlay-upper"></div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                             <div className="hobby-item">
                                 <img src={swimmingImg} alt="Swimming"/>
                                 <div className="overlay">
@@ -61,7 +61,7 @@ class Interests extends Component {
                                 <div className="overlay-upper"></div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                             <div className="hobby-item">
                                 <img src={cookingImg} alt="Cooking"/>
                                 <div className="overlay">
@@ -72,7 +72,7 @@ class Interests extends Component {
                                 <div className="overlay-upper"></div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-0">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                             <div className="hobby-item">
                                 <img src={fishingImg} alt="Fishing"/>
                                 <div className="overlay">
