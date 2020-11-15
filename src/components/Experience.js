@@ -21,6 +21,16 @@ class Experience extends Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                            <div className="experience-item card">
+                                <div className="card-body">
+                                    <h4>Front-end Developer</h4>
+                                    <h3>BeeSight Soft</h3>
+                                    <h5>May 2020 - Present</h5>
+                                    <p>I am working here as a front-end developer.Thanks to good mentors, I have learned a lot of new and varied technologies. Most especially, here I get my first experience developing an ecommerce website.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
